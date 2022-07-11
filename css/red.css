@@ -1,0 +1,22 @@
+/*Fondo de pantalla*/
+body{
+	background: url("../img/rojo.jpg");
+	/*Para que no se acabe la img al hacer scroll*/
+	background-attachment: fixed;
+}
+
+/*Logo*/
+#logo{
+	background-color: #CA3413; 
+}
+
+/*Los elementos 'li', cuyo ID es menu*/
+#menu ul li:hover{
+	background-color: #CA3413; 
+}
+
+
+/*Botón leer más*/
+.button-more{
+	background-color: #CA3413;
+}

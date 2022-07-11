@@ -1,0 +1,22 @@
+/*Fondo de pantalla*/
+body{
+	background: url("../img/cielo.jpg");
+	/*Para que no se acabe la img al hacer scroll*/
+	background-attachment: fixed;
+}
+
+/*Logo*/
+#logo{
+	background-color: #1F87C4; 
+}
+
+/*Los elementos 'li', cuyo ID es menu*/
+#menu ul li:hover{
+	background-color: #1F87C4; 
+}
+
+
+/*Botón leer más*/
+.button-more{
+	background-color: #1F87C4;
+}
